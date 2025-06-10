@@ -1,0 +1,44 @@
+SQL TABLE RELATION DIAGRAM CODE
+
+Table Customers {
+  Customer_ID varchar [pk]
+  Name varchar
+  Gender varchar
+  Age int
+  Location varchar
+}
+
+Table Products {
+  Product_ID varchar [pk]
+  Product_Name varchar
+  Category varchar
+  Price decimal
+}
+
+Table Orders {
+  Order_ID varchar [pk]
+  Customer_ID varchar
+  Order_Date date
+  Status varchar
+}
+
+Table Order_Items {
+  Order_ID varchar
+  Product_ID varchar
+  Quantity int
+  Discount decimal
+
+  Note: "Composite key of Order_ID + Product_ID"
+}
+
+Table Delivery {
+  Order_ID varchar [pk]
+  Delivery_Date date
+  Delivery_Status varchar
+  Shipping_Cost decimal
+}
+
+Ref: Orders.Customer_ID > Customers.Customer_ID
+Ref: Order_Items.Order_ID > Orders.Order_ID
+Ref: Order_Items.Product_ID > Products.Product_ID
+Ref: Delivery.Order_ID > Orders.Order_ID
