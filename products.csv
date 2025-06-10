@@ -1,0 +1,201 @@
+Product_ID,Product_Name,Category,Price
+PROD0001,Books Item 1,Books,1936.7
+PROD0002,Clothing Item 2,Clothing,1208.35
+PROD0003,Electronics Item 3,Electronics,196.03
+PROD0004,Books Item 4,Books,1235.29
+PROD0005,Books Item 5,Books,642.92
+PROD0006,Electronics Item 6,Electronics,1709.63
+PROD0007,Books Item 7,Books,354.48
+PROD0008,Home & Kitchen Item 8,Home & Kitchen,1482.27
+PROD0009,Books Item 9,Books,795.28
+PROD0010,Books Item 10,Books,197.2
+PROD0011,Fitness Item 11,Fitness,469.85
+PROD0012,Fitness Item 12,Fitness,648.34
+PROD0013,Books Item 13,Books,1058.09
+PROD0014,Fitness Item 14,Fitness,631.47
+PROD0015,Fitness Item 15,Fitness,1392.76
+PROD0016,Electronics Item 16,Electronics,344.46
+PROD0017,Electronics Item 17,Electronics,848.42
+PROD0018,Home & Kitchen Item 18,Home & Kitchen,1159.88
+PROD0019,Home & Kitchen Item 19,Home & Kitchen,1534.43
+PROD0020,Clothing Item 20,Clothing,1244.68
+PROD0021,Books Item 21,Books,1050.15
+PROD0022,Electronics Item 22,Electronics,173.94
+PROD0023,Home & Kitchen Item 23,Home & Kitchen,1627.54
+PROD0024,Fitness Item 24,Fitness,968.28
+PROD0025,Fitness Item 25,Fitness,1796.95
+PROD0026,Clothing Item 26,Clothing,723.14
+PROD0027,Fitness Item 27,Fitness,705.21
+PROD0028,Books Item 28,Books,1982.17
+PROD0029,Home & Kitchen Item 29,Home & Kitchen,1228.08
+PROD0030,Fitness Item 30,Fitness,1673.75
+PROD0031,Fitness Item 31,Fitness,1030.71
+PROD0032,Fitness Item 32,Fitness,669.6
+PROD0033,Electronics Item 33,Electronics,799.88
+PROD0034,Electronics Item 34,Electronics,1961.81
+PROD0035,Fitness Item 35,Fitness,684.59
+PROD0036,Electronics Item 36,Electronics,1234.13
+PROD0037,Home & Kitchen Item 37,Home & Kitchen,1937.43
+PROD0038,Fitness Item 38,Fitness,1197.51
+PROD0039,Electronics Item 39,Electronics,1208.69
+PROD0040,Clothing Item 40,Clothing,1096.04
+PROD0041,Fitness Item 41,Fitness,1571.75
+PROD0042,Books Item 42,Books,380.77
+PROD0043,Clothing Item 43,Clothing,159.98
+PROD0044,Electronics Item 44,Electronics,462.49
+PROD0045,Books Item 45,Books,696.02
+PROD0046,Clothing Item 46,Clothing,884.62
+PROD0047,Clothing Item 47,Clothing,879.72
+PROD0048,Fitness Item 48,Fitness,1848.99
+PROD0049,Electronics Item 49,Electronics,1440.97
+PROD0050,Fitness Item 50,Fitness,493.95
+PROD0051,Home & Kitchen Item 51,Home & Kitchen,1996.43
+PROD0052,Books Item 52,Books,1098.41
+PROD0053,Home & Kitchen Item 53,Home & Kitchen,1917.7
+PROD0054,Books Item 54,Books,1833.04
+PROD0055,Home & Kitchen Item 55,Home & Kitchen,1137.92
+PROD0056,Home & Kitchen Item 56,Home & Kitchen,1259.15
+PROD0057,Clothing Item 57,Clothing,1918.94
+PROD0058,Home & Kitchen Item 58,Home & Kitchen,1160.36
+PROD0059,Clothing Item 59,Clothing,1888.82
+PROD0060,Home & Kitchen Item 60,Home & Kitchen,1565.23
+PROD0061,Clothing Item 61,Clothing,1411.46
+PROD0062,Books Item 62,Books,702.38
+PROD0063,Home & Kitchen Item 63,Home & Kitchen,1164.93
+PROD0064,Home & Kitchen Item 64,Home & Kitchen,646.8
+PROD0065,Fitness Item 65,Fitness,1385.58
+PROD0066,Books Item 66,Books,1801.94
+PROD0067,Books Item 67,Books,1654.92
+PROD0068,Clothing Item 68,Clothing,651.86
+PROD0069,Home & Kitchen Item 69,Home & Kitchen,1915.1
+PROD0070,Electronics Item 70,Electronics,758.09
+PROD0071,Books Item 71,Books,1346.35
+PROD0072,Books Item 72,Books,506.57
+PROD0073,Fitness Item 73,Fitness,615.15
+PROD0074,Fitness Item 74,Fitness,1422.73
+PROD0075,Clothing Item 75,Clothing,307.53
+PROD0076,Fitness Item 76,Fitness,554.64
+PROD0077,Electronics Item 77,Electronics,1372.68
+PROD0078,Fitness Item 78,Fitness,528.78
+PROD0079,Clothing Item 79,Clothing,199.73
+PROD0080,Books Item 80,Books,727.56
+PROD0081,Books Item 81,Books,291.04
+PROD0082,Clothing Item 82,Clothing,109.84
+PROD0083,Fitness Item 83,Fitness,1958.03
+PROD0084,Clothing Item 84,Clothing,873.12
+PROD0085,Books Item 85,Books,1007.15
+PROD0086,Clothing Item 86,Clothing,1536.23
+PROD0087,Home & Kitchen Item 87,Home & Kitchen,710.22
+PROD0088,Electronics Item 88,Electronics,1825.08
+PROD0089,Electronics Item 89,Electronics,1339.37
+PROD0090,Clothing Item 90,Clothing,1116.79
+PROD0091,Electronics Item 91,Electronics,1835.14
+PROD0092,Clothing Item 92,Clothing,893.98
+PROD0093,Clothing Item 93,Clothing,1874.45
+PROD0094,Electronics Item 94,Electronics,1994.63
+PROD0095,Books Item 95,Books,1597.13
+PROD0096,Clothing Item 96,Clothing,1879.56
+PROD0097,Home & Kitchen Item 97,Home & Kitchen,1765.81
+PROD0098,Electronics Item 98,Electronics,666.95
+PROD0099,Fitness Item 99,Fitness,303.87
+PROD0100,Home & Kitchen Item 100,Home & Kitchen,640.67
+PROD0101,Fitness Item 101,Fitness,1096.21
+PROD0102,Clothing Item 102,Clothing,1717.01
+PROD0103,Books Item 103,Books,618.39
+PROD0104,Electronics Item 104,Electronics,728.3
+PROD0105,Books Item 105,Books,1331.74
+PROD0106,Clothing Item 106,Clothing,126.76
+PROD0107,Home & Kitchen Item 107,Home & Kitchen,1602.46
+PROD0108,Fitness Item 108,Fitness,1381.36
+PROD0109,Clothing Item 109,Clothing,433.44
+PROD0110,Books Item 110,Books,1671.28
+PROD0111,Fitness Item 111,Fitness,723.06
+PROD0112,Books Item 112,Books,1371.59
+PROD0113,Clothing Item 113,Clothing,1965.2
+PROD0114,Books Item 114,Books,714.84
+PROD0115,Clothing Item 115,Clothing,112.98
+PROD0116,Books Item 116,Books,547.49
+PROD0117,Home & Kitchen Item 117,Home & Kitchen,1912.67
+PROD0118,Home & Kitchen Item 118,Home & Kitchen,1206.68
+PROD0119,Fitness Item 119,Fitness,121.73
+PROD0120,Home & Kitchen Item 120,Home & Kitchen,1416.26
+PROD0121,Electronics Item 121,Electronics,1368.79
+PROD0122,Books Item 122,Books,682.93
+PROD0123,Books Item 123,Books,1403.54
+PROD0124,Home & Kitchen Item 124,Home & Kitchen,1411.55
+PROD0125,Home & Kitchen Item 125,Home & Kitchen,798.33
+PROD0126,Clothing Item 126,Clothing,516.34
+PROD0127,Clothing Item 127,Clothing,1008.55
+PROD0128,Books Item 128,Books,1520.7
+PROD0129,Fitness Item 129,Fitness,809.89
+PROD0130,Fitness Item 130,Fitness,1834.31
+PROD0131,Fitness Item 131,Fitness,1623.79
+PROD0132,Clothing Item 132,Clothing,1547.53
+PROD0133,Fitness Item 133,Fitness,1758.96
+PROD0134,Electronics Item 134,Electronics,1098.46
+PROD0135,Fitness Item 135,Fitness,1437.16
+PROD0136,Electronics Item 136,Electronics,1842.76
+PROD0137,Electronics Item 137,Electronics,217.34
+PROD0138,Fitness Item 138,Fitness,1815.49
+PROD0139,Clothing Item 139,Clothing,1188.13
+PROD0140,Clothing Item 140,Clothing,412.62
+PROD0141,Fitness Item 141,Fitness,939.5
+PROD0142,Clothing Item 142,Clothing,1462.14
+PROD0143,Books Item 143,Books,272.79
+PROD0144,Fitness Item 144,Fitness,946.42
+PROD0145,Electronics Item 145,Electronics,961.52
+PROD0146,Fitness Item 146,Fitness,889.31
+PROD0147,Fitness Item 147,Fitness,209.7
+PROD0148,Books Item 148,Books,1378.26
+PROD0149,Home & Kitchen Item 149,Home & Kitchen,1474.23
+PROD0150,Books Item 150,Books,583.47
+PROD0151,Electronics Item 151,Electronics,1517.03
+PROD0152,Fitness Item 152,Fitness,238.76
+PROD0153,Books Item 153,Books,754.6
+PROD0154,Electronics Item 154,Electronics,1128.21
+PROD0155,Electronics Item 155,Electronics,1875.71
+PROD0156,Electronics Item 156,Electronics,1973.66
+PROD0157,Books Item 157,Books,160.3
+PROD0158,Books Item 158,Books,441.96
+PROD0159,Clothing Item 159,Clothing,1555.07
+PROD0160,Books Item 160,Books,811.48
+PROD0161,Books Item 161,Books,952.22
+PROD0162,Books Item 162,Books,813.73
+PROD0163,Fitness Item 163,Fitness,352.68
+PROD0164,Home & Kitchen Item 164,Home & Kitchen,325.4
+PROD0165,Fitness Item 165,Fitness,846.81
+PROD0166,Clothing Item 166,Clothing,1482.93
+PROD0167,Clothing Item 167,Clothing,1686.16
+PROD0168,Electronics Item 168,Electronics,1959.13
+PROD0169,Books Item 169,Books,1379.65
+PROD0170,Fitness Item 170,Fitness,905.84
+PROD0171,Books Item 171,Books,1664.38
+PROD0172,Clothing Item 172,Clothing,975.19
+PROD0173,Clothing Item 173,Clothing,623.73
+PROD0174,Electronics Item 174,Electronics,161.21
+PROD0175,Books Item 175,Books,1268.35
+PROD0176,Electronics Item 176,Electronics,557.27
+PROD0177,Electronics Item 177,Electronics,291.7
+PROD0178,Electronics Item 178,Electronics,948.24
+PROD0179,Electronics Item 179,Electronics,564.99
+PROD0180,Electronics Item 180,Electronics,864.3
+PROD0181,Clothing Item 181,Clothing,1125.54
+PROD0182,Electronics Item 182,Electronics,366.26
+PROD0183,Home & Kitchen Item 183,Home & Kitchen,544.91
+PROD0184,Fitness Item 184,Fitness,705.92
+PROD0185,Fitness Item 185,Fitness,1567.82
+PROD0186,Home & Kitchen Item 186,Home & Kitchen,550.12
+PROD0187,Clothing Item 187,Clothing,1972.82
+PROD0188,Fitness Item 188,Fitness,519.98
+PROD0189,Home & Kitchen Item 189,Home & Kitchen,622.79
+PROD0190,Fitness Item 190,Fitness,1902.19
+PROD0191,Clothing Item 191,Clothing,1289.39
+PROD0192,Books Item 192,Books,1156.12
+PROD0193,Electronics Item 193,Electronics,1947.35
+PROD0194,Books Item 194,Books,1593.03
+PROD0195,Home & Kitchen Item 195,Home & Kitchen,1422.99
+PROD0196,Books Item 196,Books,383.51
+PROD0197,Books Item 197,Books,449.37
+PROD0198,Fitness Item 198,Fitness,999.69
+PROD0199,Clothing Item 199,Clothing,671.4
+PROD0200,Clothing Item 200,Clothing,1630.97
