@@ -1,0 +1,83 @@
+ALL SQL COMMANDS FOR THIS PROJECT
+
+1.) Customer Segmentation (High / Mid / Low Spend)
+sql
+Copy
+Edit
+SELECT 
+  c.Customer_ID,
+  SUM(oi.Quantity * p.Price * (1 - oi.Discount)) AS Total_Spend,
+  CASE
+    WHEN SUM(oi.Quantity * p.Price * (1 - oi.Discount)) >= 10000 THEN 'High'
+    WHEN SUM(oi.Quantity * p.Price * (1 - oi.Discount)) >= 5000 THEN 'Mid'
+    ELSE 'Low'
+  END AS Segment
+FROM Customers c
+JOIN Orders o ON c.Customer_ID = o.Customer_ID
+JOIN Order_Items oi ON o.Order_ID = oi.Order_ID
+JOIN Products p ON oi.Product_ID = p.Product_ID
+WHERE o.Status = 'Completed'
+GROUP BY c.Customer_ID
+ORDER BY Total_Spend DESC;
+
+2.) High-Value Product Analysis (Top Revenue Generators)
+sql
+Copy
+Edit
+SELECT 
+  p.Product_Name,
+  p.Category,
+  SUM(oi.Quantity * p.Price * (1 - oi.Discount)) AS Total_Revenue
+FROM Order_Items oi
+JOIN Products p ON oi.Product_ID = p.Product_ID
+JOIN Orders o ON o.Order_ID = oi.Order_ID
+WHERE o.Status = 'Completed'
+GROUP BY p.Product_Name, p.Category
+ORDER BY Total_Revenue DESC
+LIMIT 10;
+
+3.) Cart Abandonment Insight (Orders Without Delivery)
+sql
+Copy
+Edit
+SELECT 
+  o.Order_ID,
+  o.Customer_ID,
+  o.Status,
+  d.Delivery_Status
+FROM Orders o
+LEFT JOIN Delivery d ON o.Order_ID = d.Order_ID
+WHERE o.Status != 'Completed' OR d.Delivery_Status != 'Delivered';
+
+4.) On-Time vs Delayed Delivery KPIs
+(Assuming SLA = 7 days)
+
+sql
+Copy
+Edit
+SELECT 
+  o.Order_ID,
+  o.Order_Date,
+  d.Delivery_Date,
+  JULIANDAY(d.Delivery_Date) - JULIANDAY(o.Order_Date) AS Delivery_Days,
+  CASE
+    WHEN JULIANDAY(d.Delivery_Date) - JULIANDAY(o.Order_Date) <= 7 THEN 'On-Time'
+    ELSE 'Delayed'
+  END AS Delivery_Status
+FROM Orders o
+JOIN Delivery d ON o.Order_ID = d.Order_ID
+WHERE o.Status = 'Completed';
+
+5.) Monthly Revenue + Trend Analysis
+sql
+Copy
+Edit
+SELECT 
+  STRFTIME('%Y-%m', o.Order_Date) AS Month,
+  ROUND(SUM(oi.Quantity * p.Price * (1 - oi.Discount)), 2) AS Monthly_Revenue
+FROM Orders o
+JOIN Order_Items oi ON o.Order_ID = oi.Order_ID
+JOIN Products p ON oi.Product_ID = p.Product_ID
+WHERE o.Status = 'Completed'
+GROUP BY Month
+ORDER BY Month;
